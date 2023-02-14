@@ -29,7 +29,7 @@ body {
 }
 
 .padding {
-  padding: 2rem;
+  padding: 2.5rem;
 }
 
 .header {
@@ -48,7 +48,20 @@ button {
   border-radius: 35px;
   border: none;
   font-family: "Lexend Deca", sans-serif;
-  margin-top: 1rem;
+  margin: 1rem 0 0;
+  background-color: hsl(0deg, 0%, 95%);
+}
+
+.sedan-learn-more-button {
+  color: hsl(31deg, 77%, 52%);
+}
+
+.suv-learn-more-button {
+  color: hsl(184deg, 100%, 22%);
+}
+
+.luxury-learn-more-button {
+  color: hsl(179deg, 100%, 13%);
 }
 
 .attribution {
