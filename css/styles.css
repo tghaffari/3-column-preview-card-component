@@ -1,3 +1,56 @@
+html {
+  font-size: 15px;
+}
+
+body {
+  background-color: hsl(0deg, 0%, 95%);
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.card {
+  border-radius: 8px;
+}
+
+.sedan {
+  background: hsl(31deg, 77%, 52%);
+  border-radius: 10px 10px 0 0;
+}
+
+.suv {
+  background-color: hsl(184deg, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179deg, 100%, 13%);
+  border-radius: 0 0 10px 10px;
+}
+
+.padding {
+  padding: 2rem;
+}
+
+.header {
+  font-family: "Big Shoulders Display", sans-serif;
+  color: hsl(0deg, 0%, 95%);
+}
+
+.info {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  line-height: 25px;
+}
+
+button {
+  padding: 15px 30px;
+  border-radius: 35px;
+  border: none;
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: 1rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
