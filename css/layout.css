@@ -2,11 +2,6 @@
   max-width: 575px;
   margin: 4rem auto;
   padding: 0 2rem;
-
-  /* display: grid;
-  height: 100vh;
-  place-items: center;
-   */
 }
 
 .row {
@@ -15,4 +10,14 @@
 
 .column-full {
   width: 100%;
+}
+
+@media screen and (min-width: 875px) {
+  .container {
+    margin: auto;
+    display: grid;
+    place-content: center;
+    max-width: 1100px;
+    height: 100vh;
+  }
 }
