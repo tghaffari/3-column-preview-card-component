@@ -69,7 +69,7 @@ button {
   color: hsl(228deg, 45%, 44%);
 }
 
-@media screen and (min-width: 875px) {
+@media screen and (min-width: 1440px) {
   .wrap {
     flex-wrap: nowrap;
   }
