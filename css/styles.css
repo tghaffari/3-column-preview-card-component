@@ -10,10 +10,6 @@ body {
   flex-wrap: wrap;
 }
 
-.card {
-  border-radius: 8px;
-}
-
 .sedan {
   background: hsl(31deg, 77%, 52%);
   border-radius: 10px 10px 0 0;
@@ -71,4 +67,23 @@ button {
 
 .attribution a {
   color: hsl(228deg, 45%, 44%);
+}
+
+@media screen and (min-width: 1440px) {
+  .wrap {
+    flex-wrap: nowrap;
+  }
+
+  .sedan {
+    border-radius: 10px 0 0 10px;
+  }
+
+  .luxury {
+    background-color: hsl(179deg, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+  }
+
+  button {
+    margin: 4rem 0 0;
+  }
 }
